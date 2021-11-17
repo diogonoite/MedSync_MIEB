@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    user-select: none;
+    background-image: url(../img/textura.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.barra_dash{
+    /* background-color:black; */
+    height: 100%;
+    width: 20%;    
+}
+.logo_dash{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    display: block;
+}
+.navegar {
+    padding-top: 35%;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.navegar i{
+    width: 4%;
+}
+.navegar a { 
+        display:block;
+        text-align: left; 
+        text-decoration: none;
+        color: white;
+        padding-left: 10%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        height: 8%;      
+        font-size: 15px;
+}
+.navegar .fa{
+    color: white;
+    margin-right: 8%;
+    position: relative;
+    font-size: 20px;
+}
+.navegar a:hover{
+    background-color: rgba(41, 36, 36, 0.507);
+    padding-left: 8%;
+    
+}
+.navegar .active{
+    background:rgba(105, 103, 103, 0.25); 
+    border-left: 4px solid red;
+    padding-left: 8%;
+    font-size: 15px;
+}
+.active .fa{
+    /* color: green; */
+    margin-right: 8%;
+    position: relative;
+    font-size: 20px;
+}
+.header{
+    color: blue;
+    top: 0;
+    position: fixed;
+    margin-left: 20%;
+    /* background: black; */
+    width: 80%;
+    height: 10%;
+    display: table;
+}
+.header .procura{
+display: table-cell;
+text-align: left;
+vertical-align: middle;
+width: 40%;
+padding-left: 6%;
+
+}
+.procura input[type="text"]{
+    font-size: 15px;
+    border: none;
+    background: transparent;
+    color: white;
+    outline: none;
+    /* border-bottom:1px solid #ff0000; */
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+    height: 35%;
+    text-align: center;
+}
+
+.header .utilizador{
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 7%;
+    width: 40%;
+}
+.procura .fa{
+    color:white;
+    font-size: 15px;
+    padding-right: 1%;
+}
+.utilizador .fa{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.back_meio{
+    /* background-color: rgb(0, 0, 0); */
+    position: fixed;
+    left:20%;
+    top:9.5%;
+    height: 90.5%;
+    width: 80%;
+}
+.info{
+position: fixed;
+top:10%;
+left:20%;
+padding-left: 5%;
+padding-top: 0%;
+font-family: sans-serif;
+}
+.info .dshb{
+    font-size: 30px;
+    color: white;
+}
+
+.avatar_info{
+position: fixed;
+top:26%;
+left:25%;
+height: 50%;
+width: 20%;
+background: rgb(207, 206, 206);
+border-radius: 3px;
+}
+.data{
+position: fixed;
+top:26%;
+left:50%;
+height: 50%;
+width: 20%;
+background: rgb(207, 206, 206);
+border-radius: 3px;
+}
+.extra{
+position: fixed;
+top:26%;
+left:75%;
+/* height: 50%;
+width: 20%;
+background: rgba(46, 45, 45, 0.404); */
+font-family: sans-serif;
+color: white;
+}
+.avatar_info .cara{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 15%;
+}
+.avatar_info .nome_id{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.avatar_info .profissao{
+    margin-top: 14%;
+}
+.profissao{
+    background-color: rgba(124, 124, 124, 0.541);
+    height: 35px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.avatar_info .nome{
+    font-weight: bold;
+}
+.avatar_info p{
+    text-align: center;
+    font-family: sans-serif;
+}
+.avatar_info .id_n{
+    font-size: 15px;
+}
+.data{
+    text-align: center;
+    font-family: sans-serif;
+    display: block;
+}
+.data_real{
+    margin-top: 50%;
+}
+.hora_real{
+    margin-top: 5%;
+    font-size: 40px;
+    font-weight: 530;
+}
+.barra_baixo_dash{
+/* background: rgba(46, 45, 45, 0.404); */
+ 
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    
+}
+
+.mini_registados  {
+    color: black;
+    height: 50%;
+    width: 20%;
+    display: inline-block;
+    background-color: rgba(151, 204, 82, 0.85);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;  
+    font-size: 13px;
+    padding-left: 2%;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+}
+
+.barra_baixo_dash i{
+    background-color: transparent;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.wrap_avatar_e_outros_blocos{
+    height: 80%;
+    width: 100%;
+
+}

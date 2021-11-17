@@ -1,0 +1,45 @@
+.mini_agendar_consulta  {
+    color: black;
+    height: 50%;
+    width: 26%;
+    display: inline-block;
+    background-color: rgba(219, 223, 15,0.85); 
+    border-radius: 3px;
+    display: flex;
+    align-items: center;  
+    font-size: 15px;
+    padding-left: 2%;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+    margin-left: 19%;
+}
+.mini_consultas   {
+    color: black;
+    height: 50%;
+    width: 26%;
+    display: inline-block;
+    background-color: rgba(131, 216, 110, 0.85);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;  
+    font-size: 15px;
+    padding-left: 2%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-left: 6.7%;
+    text-decoration: none;
+}
+.barra_baixo_dash_doente{
+    /* background: rgba(46, 45, 45, 0.404); */
+ 
+    height: 25%;
+    display: flex;
+    margin: 47% 5% 0 5%;
+    font-family: sans-serif;
+
+}
+
+.barra_baixo_dash_doente i{
+    background-color: transparent;
+    font-size: 30px;
+    margin-right: 15%;
+}
